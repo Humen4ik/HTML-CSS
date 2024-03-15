@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./../../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href = "./../../index.html"><img src="./../../img/tank-icon.png" alt="Танк" class="logo"></a>
+        <nav>
+          <ul class = "nav-links">
+            <li><a href = "../../index.html">Головна</a></li>
+            <li><a href = "#">Про автора</a></li>
+          </ul>
+        </nav>
+        <a href="./pages/contact-me/contact-me.html"><button class="ctm">Напишіть мені</button></a>
+      </header>
+
+      <!-- <div class="message-container">
+        <div class="form" action = "connect.php" method.post>
+            <form method = "post">
+                <input type="text" placeholder = "Ім'я" id = "first-name" name = "first-name" autocomplete = "off">
+                <input type="text" placeholder = "Прізвище" id = "second-name" name = "second-name" autocomplete = "off">
+                <input type="email" placeholder = "Емейл" id = "email" name = "email" autocomplete = "off">
+                <input type="password" placeholder = "Пароль" id = "password" name = "password" autocomplete = "off">
+                <button id = "btn">Підтвердити</button>
+            </form>
+        </div>
+      </div> -->
+
+      <div class="wrapper">
+        <div class="form-box login">
+          <h2 class = "title">Зареєструватися</h2>
+          <form action="#" method = "post">
+            <div class="input-box">
+              <span class="icon"><ion-icon name="person"></ion-icon></span>
+              <input type="text" placeholder = "Ім'я" id = "first-name" name = "first-name" required>
+            </div>
+            <div class="input-box">
+              <span class="icon"><ion-icon name="person"></ion-icon></span>
+              <input type="text" placeholder = "Прізвище" id = "second-name" name = "second-name" required>
+            </div>
+            <div class="input-box">
+              <span class="icon"><ion-icon name="mail"></ion-icon></span>
+              <input type="email" placeholder = "Електронна пошта" id = "email" name = "email" required>
+            </div>
+            <div class="input-box">
+              <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+              <input type="password" placeholder = "Пароль" id = "password" name = "password" required>
+            </div>
+            <button id = "btn">Підтвердити</button>
+          </form>
+        </div>
+      </div>
+  </body>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>

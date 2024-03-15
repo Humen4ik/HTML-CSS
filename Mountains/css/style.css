@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "Open-Sans";
+    src: url(../fonts/OpenSans/OpenSans-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Open-Sans, Arial, sans-serif;
+    color: #fff;
+}
+
+body { 
+    background-image: url(../img/mountains-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body .container {
+    width: 1400px;
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.main-title {
+    text-align: center;
+    padding: 30px 0 20px 0;
+    font-size: 38px;
+}
+
+.google-maps {
+    font-size: 28px;
+    text-align: center;
+}
+
+.google-maps-rosohan-blocks {
+    height: 600px;
+    width: 1200px;
+    margin: 20px auto 0;
+    box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0);
+    border-radius: 10px;
+}
+
+.rosohan-2-blocks {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.rosohan-1-block {
+    width: 550px;
+    margin: 0 auto;
+}
+
+.google-maps-rosohan-blocks iframe {
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.video-title {
+    margin: 100px auto 0;
+    font-size: 28px;
+    text-align: center;
+}
+
+.video-block {
+    margin: 30px auto;
+    width: 570px;
+
+}
+
+.video-block iframe {
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.audio-block {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.social-networks {
+    width: 220px;
+    margin: 30px auto;
+}
+
+.facebook-img,
+.instagram-img {
+    width: 100px;
+}

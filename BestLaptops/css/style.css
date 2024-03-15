@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "Pitagon";
+    src: url(../fonts/Pitagon/ttf/PitagonSansText-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Open-Sans";
+    src: url("../fonts/OpenSans/OpenSans-Regular.ttf")
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Pitagon, sans-serif, Arial;
+}
+
+body {
+    background-image: url(../img/server-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.la-laptop-code {
+    font-size: 32px;
+    border-radius: 100%;
+    padding: 3px;
+    border: 2px solid grey;
+    background-color: #bff5f4;
+}
+
+.la-keyboard {
+    font-size: 32px;
+    border-radius: 100%;
+    padding: 3px;
+    border: 2px solid grey;
+    background-color: #fff;
+}
+
+.container {
+    width: 1280px;
+    margin: 50px auto 50px;
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+.main-title-block {
+    margin: 50px 0;
+}
+
+.main-title {
+    text-align: center;
+    margin: 0 auto 50px;
+    font-family: Open-Sans;
+}
+
+.lap-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 50px;
+}
+
+.lap-info {
+    display: inline-block;
+}
+
+.laptop-img {
+    height: 100%;
+    width: 450px;
+    object-fit: contain;
+}
+
+.lap-full-description-1 {
+    display: inline-block;
+    background-color: #bff5f4;
+    vertical-align: top;
+    width: 600px;
+    margin-left: 10px;
+}
+
+.lap-full-description-2 {
+    display: inline-block;
+    background-color: #bff5f4;
+    vertical-align: top;
+    width: 600px;
+    margin-right: 10px;
+}
+
+.laptop-name {
+    text-align: center;
+    padding: 20px 0 10px 0;
+    font-size: 24px;
+}
+
+.laptop-short-description {
+    font-family: Open-Sans;
+    text-align: justify;
+    padding: 10px 20px 20px 20px;
+    font-size: 18px
+}
+
+.accessories-table {
+    border-collapse: collapse;
+    font-size: 16px;
+    min-width: 400px;
+    text-align: left;
+    margin: 5px auto 20px;
+}
